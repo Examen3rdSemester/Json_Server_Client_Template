@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{414E213E-4823-4BB5-A5E0-43E1058625E4}</ProjectGuid>
+    <ProjectGuid>{1B1738E1-1255-4B57-A701-66001ED800D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>JsonClient</RootNamespace>
-    <AssemblyName>JsonClient</AssemblyName>
+    <RootNamespace>JsonServer</RootNamespace>
+    <AssemblyName>JsonServer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,9 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
-    <Compile Include="Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

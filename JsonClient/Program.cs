@@ -10,6 +10,13 @@ namespace JsonClient
     {
         static void Main(string[] args)
         {
+            //initalizere et nyt objekt af client for at anvende tilhørende metoder.
+            Client client = new Client();
+
+            //Metode med NS SW SR 
+            client.Start();
+            
+            Console.ReadLine();
         }
     }
 }
